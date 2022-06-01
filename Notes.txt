@@ -38,15 +38,24 @@
             Modifier:   Anything that changec appearance, behavior or state of 
                         a block or element
         Examples:   See images BEM1, BEM2, and BEM3
+
+    Components:
+        2 Types:
+            Class Based
+                More established and widespread
+                Expressed in class form
+            Functional: 
+                Newer and more modern
+                Literally a function that returns something
     
     Extensions:
         ES7+ React/Redux/React-Native snippets Extension:
             Scaffold new pages with typing:
-                rnfe
-                rnfes
-                rce 
-                rcep 
-                rfc 
+                rnfe        functional
+                rnfes       functional
+                rce         class-based
+                rcep        class-based 
+                rfc         functional
 
     Tips:
         "className" replaces "class" in react JSX

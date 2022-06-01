@@ -1,4 +1,5 @@
 import "./App.css";
+import ClassBased from "./ClassBased";
 import Header from "./Header";
 
 // BEM Block Element Modifier
@@ -22,6 +23,7 @@ function App() {
             <h3 className="app__title">Hello World!</h3>
             <span className="app__title--large">{getGreeting(name)}</span>
             <span className="app__title--small">You are {isMale ? 'male' : 'female'}</span>
+            <ClassBased/>
         </div>
     );
 }

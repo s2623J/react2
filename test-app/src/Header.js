@@ -2,6 +2,7 @@ import React from 'react'
 
 // BEM Block, Element, Modifier
 
+// Functional component design
 function Header() {
   return (
     <div className="header">
