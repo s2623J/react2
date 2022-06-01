@@ -1,4 +1,8 @@
 import "./App.css";
+import Header from "./Header";
+
+// BEM Block Element Modifier
+
 
 function App() {
     const name = 'Helen';
@@ -14,8 +18,10 @@ function App() {
 
     return (
         <div className="app">
-            <h1>{getGreeting(name)}</h1>
-            <h2>You are {isMale ? 'male' : 'female'}</h2>
+            <Header/>
+            <h3 className="app__title">Hello World!</h3>
+            <span className="app__title--large">{getGreeting(name)}</span>
+            <span className="app__title--small">You are {isMale ? 'male' : 'female'}</span>
         </div>
     );
 }

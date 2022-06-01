@@ -3,3 +3,15 @@
 * {
     margin: 0;
 }
+
+.app__title {
+    color: red;
+}
+
+.app__title--large {
+    font-size: 40px;
+}
+
+.app__title--small {
+    font-size: 12px;
+}

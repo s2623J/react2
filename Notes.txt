@@ -30,6 +30,8 @@
     
     BEM(Block Element Modifier):
         Naming convention
+        Never describes nested elements more than one deep:
+            As nesting gets deeper, just add additional class selectors for children
         Short for:
             Block:      A standalone entity that is meaningful on its own
             Element:    Part of a block and has no standalone meaning.
@@ -49,6 +51,7 @@
     Tips:
         "className" replaces "class" in react JSX
         Convention: Always try to make components as small as possible
+        Pressing "CTRL + SHIFT + F" will find all references to whatever is currently highlighted
 
 
     
