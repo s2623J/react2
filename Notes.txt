@@ -4,6 +4,23 @@
     JSX - Use it with React to describe what the UI should look like
         https://reactjs.org/docs/introducing-jsx.html
         https://react.statuscode.com/
+        Can be used instead of React.createElement{}
+        Can handle simple ternary expressions & function calls
+        Prevents Injection Attacks
+        Identicle:
+            const element = (
+                <h1 className="greeting">
+                    Hello, world!
+                </h1>
+            );
+
+            AND
+
+            const element = React.createElement(
+                'h1',
+                {className: 'greeting'},
+                'Hello, world!'
+            );
     
     Installation:
         npx - Lets you run code built with Node.js and published through the npm registry.
@@ -19,4 +36,19 @@
             Modifier:   Anything that changec appearance, behavior or state of 
                         a block or element
         Examples:   See images BEM1, BEM2, and BEM3
+    
+    Extensions:
+        ES7+ React/Redux/React-Native snippets Extension:
+            Scaffold new pages with typing:
+                rnfe
+                rnfes
+                rce 
+                rcep 
+                rfc 
+
+    Tips:
+        "className" replaces "class" in react JSX
+        Convention: Always try to make components as small as possible
+
+
     

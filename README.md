@@ -4,6 +4,6 @@ React Coursework
 
 ##  Instructions:
 
-Execute: npx create-react-app test-app
-Execute: cd test-app
-Execute: npm start
+Execute: npx create-react-app test-app<br/>
+Execute: cd test-app<br/>
+Execute: npm start<br/>
